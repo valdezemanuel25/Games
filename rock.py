@@ -1,5 +1,5 @@
 import random
-
+#This is a rock paper scissors game using if and elif statements
 # get inpute from the user
 player_choice = input("Rock, Paper, Scissors\n")
 
