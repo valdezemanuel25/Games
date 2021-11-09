@@ -1,8 +1,13 @@
 import random
 
+# get inpute from the user
 player_choice = input("Rock, Paper, Scissors\n")
+
+# create list of choices for the computer to pick
 possible_actions = ["r" , "p", "s"]
 computer_play = random.choice(possible_actions)
+
+# this prints the player's' choice and the computers choice
 print(f"{player_choice} vs {computer_play}")
 
 if player_choice == computer_play:
