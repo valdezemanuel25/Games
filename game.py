@@ -1,5 +1,5 @@
 import random
-
+#This is a rock paper scissors game using functions to play with the computer
 # this is a function becuase is started as def and has a set of instructions
 def play():
     # get user input to start the game
