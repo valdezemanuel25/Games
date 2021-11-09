@@ -1,5 +1,5 @@
 import random
-
+# This program lets the computer guess what number you are thinking between 1 and 10
 def computer_guess(x):
     # this is the range of our guessing numbers
     low = 1
