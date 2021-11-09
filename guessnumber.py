@@ -1,5 +1,5 @@
 import random
-
+#This program lets you guess a number between 1 and 10
 def guess(x):
     # this sets the random # to a random integer between 1 and x
     random_number = random.randint(1,x)
