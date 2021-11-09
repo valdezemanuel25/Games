@@ -11,7 +11,7 @@ def play():
     # the == compares two variables
     if user == computer:
         return 'It\s a tie'
-    # this calls the functioin player_wins() and passes user&computer has parameters
+    # this calls the function player_wins() and passes user&computer has parameters
     if player_wins(user,computer):
         return 'You won'
     # this is outside the if staements becuase if neither are true then the player lost
