@@ -5,6 +5,8 @@ player_choice = input("Rock, Paper, Scissors\n")
 
 # create list of choices for the computer to pick
 possible_actions = ["r" , "p", "s"]
+
+# random choice picks a random letter from the list
 computer_play = random.choice(possible_actions)
 
 # this prints the player's' choice and the computers choice
